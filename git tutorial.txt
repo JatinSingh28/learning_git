@@ -1,0 +1,16 @@
+GIT TUTORIAL
+
+ls ==> list of files in that folder
+mkdir name ==>makes directory(folder) called name
+cd name ==>change directory takes you inside that folder called name
+git init ==>initialize a git repositary there where you run this command
+ls -a ==>show all hidden files
+ls .name ==> shows you what is inside that file/folder called name
+touch name.txt ==>created a file(according to the ending) called name 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git add . ==> add all the files into staging area
+git add name.txt ==> only file known as name will be added to staging area
+git status ==> shows you status
+git commit ==>commit all the changes made
+
