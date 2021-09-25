@@ -15,5 +15,13 @@ git status ==> shows you status
 git commit ==>commit all the changes made
 vi name.txt ==> takes you into that file called name and let you edit it ==>:x ==> to exit vi
 cat name.txt ==>shows you the content of that file
-
+git log ==> shows you the history of edits of the file
+rm -rf name.txt ==>delete that file
+git reset "hash code" ==> bring you back to that phase
+git stash ==> bing all the work from current repo to workplace(when you want to go to previous phase)==>sends everything to backstage
+git stash pop ==> bing everything back to the stage
+git stash clear ==> removes everythng from backstage
+git add remote origin "URL" ==> connects the url to the repo
+git remote -v ==>shows the connected urls
+git puch origin "branch name"==>push your files to the connected repo
 
