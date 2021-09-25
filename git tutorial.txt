@@ -13,4 +13,7 @@ git add . ==> add all the files into staging area
 git add name.txt ==> only file known as name will be added to staging area
 git status ==> shows you status
 git commit ==>commit all the changes made
+vi name.txt ==> takes you into that file called name and let you edit it ==>:x ==> to exit vi
+cat name.txt ==>shows you the content of that file
+
 
