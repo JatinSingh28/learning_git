@@ -21,7 +21,7 @@ git reset "hash code" ==> bring you back to that phase
 git stash ==> bing all the work from current repo to workplace(when you want to go to previous phase)==>sends everything to backstage
 git stash pop ==> bing everything back to the stage
 git stash clear ==> removes everythng from backstage
-git add remote origin "URL" ==> connects the url to the repo
+git remote add origin "URL" ==> connects the url to the repo
 git remote -v ==>shows the connected urls
 git push origin "branch name"==>push your files to the connected repo
 git branch feature ==> creates a new branch called feature
